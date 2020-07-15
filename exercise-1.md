@@ -17,3 +17,22 @@ Write out each endpoint, its method, and brief description of waht it should do.
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
 ## Your Answer
+
+firstly, keep track of stock. we will need a get endpoint. We will put all the stock in data object and use a function to display the stock of our produce.
+GET base-url/stock
+POST /stock
+PUT /stock/:id
+create an endpoint for seating. will be a a get endpoint.
+GET /seating/
+everytime a customer signs in. we will have to create a post to the server
+GET /seating/customer
+POST /seating/customer
+PUT /seating/customer/:id
+make an endpoint for the menu. similarly to the stock. we will store the menu in an object
+Also, and enpoint for the sales we make. so everytime a sale goes through we post. PUT so the manager can access the specific sale.
+GET /menu
+GET /sales
+POST /sales
+PUT /sales/:id
+DELETE /sales/:id
+GET /sales/:id
